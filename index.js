@@ -26,6 +26,7 @@ const server = http.createServer((req, res) => {
     case ".css":
       contentType = "text/css";
       break;
+    // Not needed on this page but for example
     case ".png":
       contentType = "image/png";
       break;

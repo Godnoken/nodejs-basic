@@ -1,3 +1,29 @@
+body {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
 h1 {
-    color: red;
+    font-size: 36px;
+    color: white;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+}
+
+.link-container {
+    display: flex;
+    column-gap: 24px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #8989ff;
 }
